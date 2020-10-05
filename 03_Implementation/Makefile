@@ -9,7 +9,7 @@ src/airline_operations.c\
 
 # All test source files
 TEST_SRC = src/airline_operations.c\
-test/test_airline_operations.c
+test/test_airline.c
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
