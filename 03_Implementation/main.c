@@ -19,6 +19,70 @@ void viewdetails(void)
 
 }
 
+/******************************************RESERVATION FUNCTION()*************************************************/
+
+void reservation(void)
+{
+	char confirm;            //character variable
+	int i=0;
+	float charges;
+	pd passdetails;
+	FILE *fp;
+	fp=fopen("seats_reserved.txt","a");  //opens file in append mode
+	system("cls");
+
+	printf("\nEnter Your Name:> ");
+	fflush(stdin);
+	gets(passdetails.name);
+	printf("\nEnter Number of seats:> ");
+	scanf("%d",&passdetails.num_of_seats);
+	printf("\nClass(Economical/First):> ");
+	fflush(stdin);
+	gets(passdetails.class_pref);
+	printf("\n\n>>Press Enter To View Available Flights<< ");
+	getch();
+	system("cls");
+	viewdetails();
+	printf("\n\nEnter flight number:> ");
+	start1:
+	scanf("%d",&passdetails.flight_num);
+	if(passdetails.flight_num>=1000 && passdetails.flight_num<=1010)
+	{
+		charges=charge(passdetails.flight_num,passdetails.num_of_seats);
+		printticket(passdetails.name,passdetails.num_of_seats,passdetails.class_pref,passdetails.flight_num,charges);
+	}
+	else
+	{
+		printf("\nInvalid flight Number! Enter again--> ");
+		goto start1;
+	}
+
+	printf("\n\nConfirm Ticket (y/n):>");
+	start:
+	scanf(" %c",&confirm);
+	if(confirm == 'y')
+	{
+		fprintf(fp,"%s\t\t%d\t\t%s\t\t%d\t\t%.2f\n",&passdetails.name,passdetails.num_of_seats,passdetails.class_pref,passdetails.flight_num,charges);
+		printf("==================");
+		printf("\n Reservation Done\n");
+		printf("\n\n\n            THANK YOU FOR USING OUR SERVICE    ");
+		printf("==================");
+		printf("\n\nPress any key to go back to Main menu");
+	}
+	else
+	{
+		if(confirm=='n'){
+			printf("\nReservation Not Done!\nPress any key to go back to  Main menu!");
+		}
+		else
+		{
+			printf("\nInvalid choice entered! Enter again-----> ");
+			goto start;
+		}
+	}
+	fclose(fp);
+	getch();
+}
 
 /*********************************************MAIN()*************************************************/
 
