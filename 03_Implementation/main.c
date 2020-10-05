@@ -173,6 +173,89 @@ scanf("%d",&c);
 	}
 }
 
+/*********************************************PRINTTICKET()*************************************************/
+
+void printticket(char name[],int num_of_seats,char class_pref[],int flight_num,float charges)
+{
+	system("cls");
+	printf("-------------------\n");
+	printf("\tTICKET\n");
+	printf("-------------------\n\n");
+	printf("Name:\t\t\t%s",name);
+	printf("\nNumber Of Seats:\t%d",num_of_seats);
+	printf("\nClass:\t\t\t%s",class_pref);
+	printf("\nFlight Number:\t\t%d",flight_num);
+	specificflight(flight_num);
+	printf("\nCharges:\t\t%.2f",charges);
+}
+
+/*********************************************SPECIFICFLIGHT()*************************************************/
+
+void specificflight(int flight_num)
+{
+
+	if (flight_num==1000)
+	{
+		printf("\nFlight:\t\t\tMSD Express Jet");
+		printf("\nDestination:\t\tKochi To Mangalore");
+		printf("\nDeparture:\t\t9am ");
+	}
+	if (flight_num==1001)
+	{
+		printf("\nFlight:\t\t\tMSD Express Jet");
+		printf("\nDestination:\t\tMangalore To Kochi");
+		printf("\nDeparture:\t\t12pm");
+	}
+	if (flight_num==1002)
+	{
+		printf("\nFlight:\t\t\tMSD Express Jet");
+		printf("\nDestination:\t\tKochi To Mysore");
+		printf("\nDeparture:\t\t8am");
+	}
+	if (flight_num==1003)
+	{
+		printf("\nFlight:\t\t\tMSD Express Jet");
+		printf("\nDestination:\t\tMysore To Kochi");
+		printf("\nDeparture:\t\t11am ");
+	}
+	if (flight_num==1004)
+	{
+		printf("\nFlight:\t\t\tMSD Express Jet");
+		printf("\nDestination:\t\tTrivandrum to Bangalore");
+		printf("\nDeparture:\t\t7am");
+	}
+	if (flight_num==1005)
+	{
+		printf("\nflight:\t\t\tMSD Express Jet");
+		printf("\nDestination:\t\tBangalore to Trivandrum ");
+		printf("\nDeparture:\t\t9.30am ");
+	}
+	if (flight_num==1006)
+	{
+		printf("\nflight:\t\t\tMSD Express Jet");
+		printf("\nDestination:\t\tTrivandrum To Chennai");
+		printf("\nDeparture:\t\t1pm ");
+	}
+	if (flight_num==1007)
+	{
+		printf("\nFlight:\t\t\tMSD Express Jet");
+		printf("\n Destination:\t\tChennai To Trivandrum");
+		printf("\nDeparture:\t\t4pm ");
+	}
+	if (flight_num==1008)
+	{
+		printf("\nflight:\t\t\tMSD Express Jet");
+		printf("\nDestination:\t\tHyderabad To Mumbai");
+		printf("\nDeparture:\t\t3.35pm ");
+	}
+	if (flight_num==1009)
+	{
+		printf("\nFlight:\t\t\tMSD Express Jet");
+		printf("\nDestination:\t\tMumbai To Hyderabad");
+		printf("\nDeparture:\t\t1.15 ");
+	}
+}
+
 /*********************************************MAIN()*************************************************/
 
 int main()
