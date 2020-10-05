@@ -1,3 +1,12 @@
+#include<airline_operations.h>
+
+typedef struct{
+	char name[50];
+	int flight_num;
+	char class_pref[20];
+	int num_of_seats;
+}pd;
+
 void viewdetails(void)
 {
 	system("cls");
