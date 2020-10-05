@@ -44,7 +44,7 @@ void login()
 
 	printf("  \n\n\n       WELCOME TO OUR SYSTEM !! YOUR LOGIN IS SUCCESSFUL");
 	printf("\n\n\n\t\t\t\tPress Enter key to continue...");
-	getch();//holds the screen
+	//getch();//holds the screen
 	break;
 	}
 	else
@@ -52,7 +52,7 @@ void login()
 		printf("\n        SORRY !!!!  LOGIN IS UNSUCCESSFUL");
 		a++;
 
-		getch();//holds the screen
+		//getch();//holds the screen
 		system("cls");
 	}
 }
@@ -61,7 +61,7 @@ void login()
 	{
 		printf("\nSorry you have entered the wrong username and password for four times!!!");
 
-		getch ();
+		//getch ();
 
 
 		}
