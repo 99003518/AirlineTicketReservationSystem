@@ -1,3 +1,25 @@
+void viewdetails(void)
+{
+	system("cls");
+	//printf("------------------------------------------------------------------------------------------------------------");
+	printf("                    FLIGHT CHART                                                           ");
+	printf("\n----------------------------------------------------------------------------------------------------------");
+	printf("\nFlt.No\tName\t\t\tDestinations\t\tCharges (First or Economical)\t\tTime\n");
+	printf("------------------------------------------------------------------------------------------------------------");
+	printf("\n1000\tMSD Express Jet\t\tKochi to Mangalore\t\tRs.5000\t\tRs.10000\t\t9am");
+	printf("\n1001\tMSD Express Jet\t\tMangalore To Kochi\t\tRs.5000\t\tRs.10000\t\t12pm");
+	printf("\n1002\tMSD Express Jet\t\tKochi To Mysore\t\t\tRs.4500\t\tRs.9000\t\t\t8am");
+	printf("\n1003\tMSD Express Jet\t\tMysore To Kochi\t\t\tRs.4500\t\tRs.9000\t\t\t11am");
+	printf("\n1004\tMSD Express Jet\t\tTrivandrum To Bangalore\t\tRs.4000\t\tRs.8000\t\t\t7am");
+	printf("\n1005\tMSD Express Jet\t\tBangalore To Trivandrum\t\tRs.4000\t\tRs.8000\t\t\t9.30am");
+    printf("\n1006\tMSD Express Jet\t\tTrivandrum To Chennai\t\tRs.3500\t\tRs.7000\t\t\t1pm");
+    printf("\n1007\tMSD Express Jet\t\tChennai To Trivandrum\t\tRs.3500\t\tRs.7000\t\t\t4pm");
+    printf("\n1008\tMSD Express Jet\t\tHyderabad To Mumbai\t\tRs.6000\t\tRs.12000\t\t3.35pm");
+    printf("\n1009\tMSD Express Jet\t\tMumbai To Hyderabad\t\tRs.6000\t\tRs.12000\t\t4.15pm");
+
+}
+
+
 /*********************************************MAIN()*************************************************/
 
 int main()
