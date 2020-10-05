@@ -40,7 +40,7 @@ void reservation(void)
 	fflush(stdin);
 	gets(passdetails.class_pref);
 	printf("\n\n>>Press Enter To View Available Flights<< ");
-	getch();
+	//getch();
 	system("cls");
 	viewdetails();
 	printf("\n\nEnter flight number:> ");
