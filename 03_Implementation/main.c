@@ -81,7 +81,7 @@ void reservation(void)
 		}
 	}
 	fclose(fp);
-	getch();
+	//getch();
 }
 
 float charge(int flight_num,int num_of_seats)
@@ -278,7 +278,7 @@ int main()
 
 	printf(" \n Press any key to continue:");
 
-	getch();
+	//getch();
     system("cls");
 	login();
 	int menu_choice,choice_return;
