@@ -1,4 +1,4 @@
-PROJECT_NAME = Airline
+//PROJECT_NAME = Airline
 
 BUILD = build
 
