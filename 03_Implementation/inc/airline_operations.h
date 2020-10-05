@@ -2,7 +2,6 @@
 #define __AIRLINE_OPERATIONS_H__
 
 #include<stdio.h>
-#include<conio.h>
 #include<stdlib.h>
 #include<string.h>
 
