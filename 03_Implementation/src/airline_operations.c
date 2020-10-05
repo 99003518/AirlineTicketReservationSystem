@@ -1,6 +1,6 @@
-/*#include<airline_operations.h>
+#include<airline_operations.h>
 
-typedef struct{
+/*typedef struct{
 	char name[50];
 	int flight_num;
 	char class_pref[20];
@@ -25,16 +25,16 @@ void login()
 
     printf("\n  =======================  LOGIN FORM  =======================\n  ");
     printf(" \n                        USERNAME:-");
-	scanf("%s", &uname);
+	scanf("%s", uname);
 	printf(" \n                        PASSWORD:-");
-	while(i<10)
+	/*while(i<10)
 	{
 	    pword[i]=getch();
 	    c=pword[i];
 	    if(c==13) break;
 	    else printf("*");
 	    i++;
-	}
+	}*/
 	pword[i]='\0';
 	//char code=pword;
 	i=0;
