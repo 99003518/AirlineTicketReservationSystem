@@ -56,7 +56,7 @@ void login()
 		system("cls");
 	}
 }
-	while(a<=2);
+	/*while(a<=2);
 	if (a>2)
 	{
 		printf("\nSorry you have entered the wrong username and password for four times!!!");
@@ -64,7 +64,7 @@ void login()
 		//getch ();
 
 
-		}
+		}*/
 		system("cls");
 }
 
