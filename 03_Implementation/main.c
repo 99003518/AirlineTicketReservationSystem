@@ -42,12 +42,12 @@ void reservation(void)
 
 	printf("\nEnter Your Name:> ");
 	fflush(stdin);
-	gets(passdetails.name);
+	fgets(passdetails.name);
 	printf("\nEnter Number of seats:> ");
 	scanf("%d",&passdetails.num_of_seats);
 	printf("\nClass(Economical/First):> ");
 	fflush(stdin);
-	gets(passdetails.class_pref);
+	fgets(passdetails.class_pref);
 	printf("\n\n>>Press Enter To View Available Flights<< ");
 	//getch();
 	system("cls");
@@ -312,7 +312,7 @@ int main()
 		case 2:
 			viewdetails();      //The func viewdetails is called
 			printf("\n\nPress Enter key to go to Main Menu..");
-			getch();
+			//getch();
 			break;
 		case 3:
 			return(0);
