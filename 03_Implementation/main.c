@@ -43,12 +43,12 @@ void reservation(void)
 	system("cls");
 	printf("\nEnter Your Name:> ");
 	fflush(stdin);
-	gets(passdetails.name);
+	scanf("%s",passdetails.name);
 	printf("\nEnter Number of seats:> ");
 	scanf("%d",&passdetails.num_of_seats);
 	printf("\nClass(Economical/First):> ");
 	fflush(stdin);
-	fgets(passdetails.class_pref);
+	scanf("%s",passdetails.class_pref);
 	printf("\n\n>>Press Enter To View Available Flights<< ");
 	//getch();
 	system("cls");
