@@ -48,7 +48,7 @@ void reservation(void)
 	scanf("%d",&passdetails.num_of_seats);
 	printf("\nClass(Economical/First):> ");
 	fflush(stdin);
-	gets(passdetails.class_pref);
+	fgets(passdetails.class_pref);
 	printf("\n\n>>Press Enter To View Available Flights<< ");
 	//getch();
 	system("cls");
@@ -294,7 +294,7 @@ void login()
 	//scanf("%s",&pword);
 	printf("  \n\n\n       WELCOME TO OUR SYSTEM !! YOUR LOGIN IS SUCCESSFUL");
 	printf("\n\n\n\t\t\t\tPress Enter key to continue...");
-	getch();//holds the screen
+	//getch();//holds the screen
 	break;
 	}
 	else
