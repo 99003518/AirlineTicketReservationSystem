@@ -15,12 +15,12 @@ int main()
 	printf("\t\t|               MSD AIRLINES                    |\n");
 	printf("\t\t|                                               |\n");
 	printf("\t\t|                                               |\n");
-	printf("\t\t=================================================\n\n\n");
+	std::printf("\t\t=================================================\n\n\n");
 
 
-	printf(" \n Press any key to continue:");
+	std::printf(" \n Press any key to continue:");
 
-	getch();
+	//getch();
     system("cls");
 	login();
 	int menu_choice,choice_return;
