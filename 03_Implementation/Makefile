@@ -44,3 +44,4 @@ clean:
 # Create new build folder if not present
 $(BUILD):
 	mkdir build
+	
