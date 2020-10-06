@@ -43,7 +43,7 @@ void reservation(void)
 	system("cls");
 	printf("\nEnter Your Name:> ");
 	fflush(stdin);
-	fgets(passdetails.name);
+	gets(passdetails.name);
 	printf("\nEnter Number of seats:> ");
 	scanf("%d",&passdetails.num_of_seats);
 	printf("\nClass(Economical/First):> ");
