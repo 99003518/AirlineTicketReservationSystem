@@ -12,6 +12,6 @@ void printticket(char name[],int,char class_pref[],int,float);	//print ticket
 void specificflight(int);						//print data related to specific flight
 float charge(int,int);							//charge calculated automatically w.r.t number of seats and flight
 void login();
-void userLogin (char uname[10],char pword[10]);
+int userLogin (char uname[10],char pword[10]);
 
 #endif                                              // __AIRLINE_OPERATIONS_H__
