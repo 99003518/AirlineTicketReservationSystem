@@ -36,9 +36,9 @@ int main() {
 }
 
 void test_userLogin(void) {
-  CU_ASSERT(1 == userLogin('user', 'pass'));
+  CU_ASSERT(1 == userLogin("user", "pass"));
 
   /* Dummy fail*/
-  CU_ASSERT(1 == userLogin('user','passs'));
+  CU_ASSERT(1 == userLogin("user","passs"'));
 }
 
