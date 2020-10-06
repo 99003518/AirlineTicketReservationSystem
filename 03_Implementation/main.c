@@ -15,10 +15,10 @@ int main()
 	printf("\t\t|               MSD AIRLINES                    |\n");
 	printf("\t\t|                                               |\n");
 	printf("\t\t|                                               |\n");
-	std:printf("\t\t=================================================\n\n\n");
+	printf("\t\t=================================================\n\n\n");
 
 
-	std:printf(" \n Press any key to continue:");
+	printf(" \n Press any key to continue:");
 
 	//getch();
     system("cls");
