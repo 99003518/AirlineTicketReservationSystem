@@ -1,6 +1,6 @@
 #include<airline_operations.h>
 
-typedef struct{
+/*typedef struct{
 	char name[50];
 	int flight_num;
 	char class_pref[20];
@@ -12,7 +12,7 @@ typedef struct{
 //The function is yet not completed, need more details to be added!
 //timings of the trains are still missing
 
-void viewdetails(void)
+/*void viewdetails(void)
 {
 	system("cls");
 	//printf("------------------------------------------------------------------------------------------------------------");
@@ -35,7 +35,7 @@ void viewdetails(void)
 
 /******************************************RESERVATION FUNCTION()*************************************************/
 
-void reservation(void)
+/*void reservation(void)
 {
 	char confirm;            //character variable
 	int i=0;
@@ -101,7 +101,7 @@ void reservation(void)
 
 /*********************************************CHARGE()*************************************************/
 
-float charge(int flight_num,int num_of_seats)
+/*float charge(int flight_num,int num_of_seats)
 {int c ;
 printf("\n\nEnter 0 for Economical Class , 1 for First Class :>");
 scanf("%d",&c);
@@ -192,7 +192,7 @@ scanf("%d",&c);
 
 /*********************************************PRINTTICKET()*************************************************/
 
-void printticket(char name[],int num_of_seats,char class_pref[],int flight_num,float charges)
+/*void printticket(char name[],int num_of_seats,char class_pref[],int flight_num,float charges)
 {
 	system("cls");
 	printf("-------------------\n");
@@ -208,7 +208,7 @@ void printticket(char name[],int num_of_seats,char class_pref[],int flight_num,f
 
 /*********************************************SPECIFICFLIGHT()*************************************************/
 
-void specificflight(int flight_num)
+/*void specificflight(int flight_num)
 {
 
 	if (flight_num==1000)
@@ -276,7 +276,7 @@ void specificflight(int flight_num)
 /*************************************************LOGIN PAGE*************************************/
 
 
-void login()
+/*void login()
 {
 	int a=0,i=0;
     char uname[10],c=' ';
@@ -329,7 +329,7 @@ void login()
 
 		}
 		system("cls");
-}
+}*/
 
 int userLogin (char uname [10],char pword[10]){
     if(strcmp(uname,"user")==0 && strcmp(pword,"pass")==0)
