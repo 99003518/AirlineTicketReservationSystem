@@ -43,7 +43,7 @@ void reservation(void)
 	system("cls");
 	printf("\nEnter Your Name:> ");
 	fflush(stdin);
-	gets(passdetails.name);
+	fgets(passdetails.name);
 	printf("\nEnter Number of seats:> ");
 	scanf("%d",&passdetails.num_of_seats);
 	printf("\nClass(Economical/First):> ");
@@ -71,7 +71,7 @@ void reservation(void)
 	scanf(" %c",&confirm);
 	if(confirm == 'y')
 	{
-		fprintf(fp,"%s\t\t%d\t\t%s\t\t%d\t\t%.2f\n",&passdetails.name,passdetails.num_of_seats,passdetails.class_pref,passdetails.flight_num,charges);
+		fprintf(fp,"%s\t\t%d\t\t%s\t\t%d\t\t%.2f\n",passdetails.name,passdetails.num_of_seats,passdetails.class_pref,passdetails.flight_num,charges);
 		printf("==================");
 		printf("\n Reservation Done\n");
 		printf("\n\n\n            THANK YOU FOR USING OUR SERVICE    ");
@@ -90,7 +90,7 @@ void reservation(void)
 		}
 	}
 	fclose(fp);
-	getch();
+	//getch();
 }
 /*********************************************CHARGE()*************************************************/
 
@@ -276,7 +276,7 @@ void login()
 {
     printf("\n  =======================  LOGIN FORM  =======================\n  ");
     printf(" \n                        USERNAME:-");
-	scanf("%s", &uname);
+	scanf("%s", uname);
 	printf(" \n                        PASSWORD:-");
 	/*while(i<10)
 	{
