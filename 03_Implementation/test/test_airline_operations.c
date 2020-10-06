@@ -7,7 +7,7 @@
 #define PROJECT_NAME    "Airline"
 
 /* Prototypes for all the test functions */
-void userLogin (void);
+void test_userLogin (void);
 
 
 /* Start of the application test */
@@ -21,7 +21,7 @@ int main() {
 
 
   /* Add your test functions in this format for testing*/
-  CU_add_test(suite, "userLogin", test_userLoginlogin);
+  CU_add_test(suite, "userLogin", test_userLogin);
 
 
   CU_basic_set_mode(CU_BRM_VERBOSE);
