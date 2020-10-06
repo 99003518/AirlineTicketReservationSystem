@@ -327,7 +327,7 @@ void login()
 
 		}*/
 		//system("cls");
-}
+
 
 void userLogin (char uname [10],char pword[10]){
     if(strcmp(uname,"user")==0 && strcmp(pword,"pass")==0)
