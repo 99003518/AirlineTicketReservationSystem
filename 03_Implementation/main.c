@@ -1,9 +1,9 @@
 /*********************************************MAIN()*************************************************/
-
+#include<stdio.h>
 int main()
 
 {
-		system("cls");
+		//system("cls");
 	printf("\t\t=================================================\n");
 	printf("\t\t|                                               |\n");
 	printf("\t\t|        -----------------------------          |\n");
@@ -21,7 +21,7 @@ int main()
 	printf(" \n Press any key to continue:");
 
 	//getch();
-    system("cls");
+   // system("cls");
 	login();
 	int menu_choice,choice_return;
 	start:
