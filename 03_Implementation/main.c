@@ -312,7 +312,7 @@ void login()
 		//getch ();
 		}
 		system("cls");
-}*/
+}
 
 
 
