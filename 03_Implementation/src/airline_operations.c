@@ -9,8 +9,6 @@ typedef struct{
 
 /*********************************************VIEWDETAILS()*************************************************/
 
-//The function is yet not completed, need more details to be added!
-//timings of the trains are still missing
 
 void viewdetails(void)
 {
@@ -47,12 +45,12 @@ void reservation(void)
 
 	printf("\nEnter Your Name:> ");
 	fflush(stdin);
-	gets(passdetails.name);
+	fgets(passdetails.name);
 	printf("\nEnter Number of seats:> ");
 	scanf("%d",&passdetails.num_of_seats);
 	printf("\nClass(Economical/First):> ");
 	fflush(stdin);
-	gets(passdetails.class_pref);
+	fgets(passdetails.class_pref);
 	printf("\n\n>>Press Enter To View Available Flights<< ");
 	//getch();
 	system("cls");
@@ -288,7 +286,7 @@ void login()
 
     printf("\n  =======================  LOGIN FORM  =======================\n  ");
     printf(" \n                        USERNAME:-");
-	scanf("%s", &uname);
+	scanf("%s", uname);
 	printf(" \n                        PASSWORD:-");
 	/*while(i<10)
 	{
@@ -328,7 +326,7 @@ void login()
 
 
 		}*/
-		system("cls");
+		//system("cls");
 }
 
 void userLogin (char uname [10],char pword[10]){
