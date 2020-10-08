@@ -43,12 +43,12 @@ void reservation(void)
 	system("cls");
 	printf("\nEnter Your Name:> ");
 	fflush(stdin);
-	scanf("%s",passdetails.name);
+	scanf("%9s",passdetails.name);
 	printf("\nEnter Number of seats:> ");
 	scanf("%d",&passdetails.num_of_seats);
 	printf("\nClass(Economical/First):> ");
 	fflush(stdin);
-	scanf("%s",passdetails.class_pref);
+	scanf("%9s",passdetails.class_pref);
 	printf("\n\n>>Press Enter To View Available Flights<< ");
 	//getch();
 	system("cls");
@@ -267,16 +267,15 @@ void specificflight(int flight_num)
 
 void login()
 {
-	int a=0,i=0;
-    char uname[10],c=' ';
-    char pword[10],code[10];
-    char user[10]="user";
-    char pass[10]="pass";
+	int a=0;
+    char uname[10];
+    char pword[10];
+   
     do
 {
     printf("\n  =======================  LOGIN FORM  =======================\n  ");
     printf(" \n                        USERNAME:-");
-	scanf("%s", uname);
+	scanf("%9s", uname);
 	printf(" \n                        PASSWORD:-");
 	/*while(i<10)
 	{
