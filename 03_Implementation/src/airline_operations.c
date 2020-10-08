@@ -29,7 +29,7 @@
     printf("\n1006\tMSD Express Jet\t\tTrivandrum To Chennai\t\tRs.3500\t\tRs.7000\t\t\t1pm");
     printf("\n1007\tMSD Express Jet\t\tChennai To Trivandrum\t\tRs.3500\t\tRs.7000\t\t\t4pm");
     printf("\n1008\tMSD Express Jet\t\tHyderabad To Mumbai\t\tRs.6000\t\tRs.12000\t\t3.35pm");
-    printf("\n1009\tMSD Express Jet\t\tMumbai To Hyderabad\t\tRs.6000\t\tRs.12000\t\t4.15pm");
+   
 
 }
 
