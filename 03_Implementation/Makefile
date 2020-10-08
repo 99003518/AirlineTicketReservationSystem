@@ -1,4 +1,4 @@
-PROJECT_NAME = Airline 
+PROJECT_NAME = AIRLINE 
 
 BUILD = build
 
@@ -43,4 +43,3 @@ clean:
 # Create new build folder if not present
 $(BUILD):
 	mkdir build
-#end
