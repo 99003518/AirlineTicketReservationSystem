@@ -1,5 +1,4 @@
-PROJECT_NAME = Airline Ticket Reservation System
-
+PROJECT_NAME = Airline 
 
 BUILD = build
 
