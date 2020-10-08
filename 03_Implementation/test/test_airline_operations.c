@@ -4,7 +4,7 @@
 
 /* Modify these two lines according to the project */
 #include <airline_operations.h>
-#define PROJECT_NAME    "Airline"
+#define PROJECT_NAME    "AIRLINE"
 
 /* Prototypes for all the test functions */
 void test_userLogin (void);
