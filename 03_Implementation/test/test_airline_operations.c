@@ -41,6 +41,3 @@ void test_userLogin(void) {
   /* Dummy fail*/
   CU_ASSERT(1 == userLogin("user","passs"));
 }
-
-
-
