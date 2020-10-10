@@ -1,5 +1,6 @@
 #include<airline_operations.h>
 
+
 typedef struct{
 	char name[50];
 	int flight_num;
